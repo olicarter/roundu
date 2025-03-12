@@ -1,95 +1,36 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <main className={styles.main}>
+      <div className={styles.circle} />
+      <h1 className={styles.title}>roundu</h1>
+      <p>
+        Home is more than four walls—it’s the streets you walk, the spaces you
+        gather in, and the places that shape your daily life. When these spaces
+        feel neglected or uninspired, it affects everyone who moves through
+        them. But with the right people and ideas, they can become something
+        more.
+      </p>
+      <p>
+        <strong>roundu</strong> is a platform for bringing local ideas to life.
+        It connects people who want to improve their surroundings with others
+        who have the skills, time, or resources to help. Whether you have a
+        vision for your neighborhood or want to support someone else’s,{" "}
+        <strong>roundu</strong>
+        makes collaboration easy.
+      </p>
+      <p>
+        A blank wall could turn into a mural, an empty lot into a pop-up market,
+        a forgotten corner into a community garden. Whether it’s setting up
+        public grill areas, adding street art, or building birdhouses, small
+        changes can bring life to shared spaces and make them feel like home.
+      </p>
+      <p>
+        Find others who share your vision, offer your skills, or pitch in with
+        resources to bring ideas to life. Every contribution, big or small,
+        helps shape the places we all call home.
+      </p>
+    </main>
   );
 }
