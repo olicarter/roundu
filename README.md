@@ -1,68 +1,7 @@
 # Roundu  
 
-Roundu is a platform for turning local ideas into action. Whether you want to improve your surroundings, find collaborators, or support projects with time, skills, or funding, Roundu connects people who want to make a difference.  
+Big or small, local ideas deserve a chance to grow. A blank wall could become a mural, an empty lot a pop-up market, a forgotten corner a community garden. Whether it’s building birdhouses, setting up public grill areas, or creating space for street art, it all starts with people coming together.
 
-## Tech Stack  
+Find others who share your vision, offer your skills, or pitch in with resources to bring projects to life. Small efforts add up, and together, they shape the places we live.
 
-- **Framework:** [Next.js](https://nextjs.org/)  
-- **Language:** TypeScript  
-- **Package Manager:** pnpm / npm / yarn (based on project setup)  
-
-## Project Structure  
-
-```
-roundu/  
-├── packages/  
-│   ├── web/              # Next.js frontend  
-│   │   ├── pages/  
-│   │   ├── components/  
-│   │   ├── styles/  
-│   │   ├── public/  
-│   │   ├── package.json  
-│   │   └── tsconfig.json  
-│   └── ... (future packages)  
-├── package.json  
-├── README.md  
-└── ... (other configs)  
-```
-
-## Getting Started  
-
-### Prerequisites  
-
-Ensure you have the following installed:  
-- **Node.js** (latest LTS recommended)  
-- **pnpm** (or npm/yarn)  
-
-### Installation  
-
-Clone the repository and install dependencies:  
-
-```bash
-git clone https://github.com/yourusername/roundu.git  
-cd roundu  
-pnpm install  # or npm install / yarn install
-```
-
-### Running the Project  
-
-Start the Next.js app in development mode:  
-
-```bash
-pnpm dev  # or npm run dev / yarn dev
-```
-
-The app will be available at `http://localhost:3000`.  
-
-## Contributing  
-
-Contributions are welcome! To get started:  
-1. Fork the repository  
-2. Create a new branch (`git checkout -b feature-name`)  
-3. Commit changes (`git commit -m "Add feature"`)  
-4. Push to the branch (`git push origin feature-name`)  
-5. Open a pull request  
-
-## License  
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Join a network of people making their surroundings more vibrant, one project at a time.
