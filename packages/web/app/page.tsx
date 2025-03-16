@@ -7,7 +7,7 @@ export default function Home() {
     <main className={styles.main}>
       <header>
         <h1 className={styles.title}>roundu</h1>
-        <p>Better the world.</p>
+        <p>Better your world.</p>
       </header>
       <footer>
         <form action={handleSubmit}>
@@ -15,6 +15,7 @@ export default function Home() {
             className="input large"
             name="email"
             placeholder="Email"
+            required
             type="email"
           />
           <SubmitButton />

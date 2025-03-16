@@ -9,6 +9,7 @@
     --background: #00243d;
     --foreground: #ffdc72;
     --accent: #ffc800;
+    --input-background: #fff0c2;
   }
 }
 
@@ -80,7 +81,7 @@ a {
 }
 
 .input[type='email'] {
-  background-color: var(--foreground);
+  background-color: var(--input-background);
   border-radius: 0.375rem;
   border: none;
   color: var(--background);
@@ -90,12 +91,12 @@ a {
 }
 
 .input[type='email']:-webkit-autofill {
-  box-shadow: 0 0 0 100px var(--foreground) inset;
+  box-shadow: 0 0 0 100px var(--input-background) inset;
   -webkit-text-fill-color: var(--background);
 }
 
 .input[type='email']::placeholder {
-  color: var(--background);
+  color: var(--input-foreground);
 }
 
 .input[type='email'].small {
