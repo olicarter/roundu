@@ -3,7 +3,7 @@
 import { db } from '@/db'
 import { z } from 'zod'
 import styles from './sign-in-page.module.css'
-import { FormEvent, useRef, useState } from 'react'
+import { FormEvent, useState } from 'react'
 import { SubmitButton } from '../submit-button'
 
 export default function SignInPage() {
