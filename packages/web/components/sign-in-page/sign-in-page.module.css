@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  height: 100dvh;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.main form {
+  display: grid;
+  gap: 1rem;
+}
+
+.main form > * {
+  width: 100%;
+}
